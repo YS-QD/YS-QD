@@ -71,7 +71,7 @@ async function initGitHubProjects() {
     const projectsContainer = document.getElementById('github-projects');
 
     // 替换为你的 GitHub 用户名
-    const githubUsername = 'YOUR_GITHUB_USERNAME';
+    const githubUsername = 'YS-Qd';
 
     try {
         const response = await fetch(`https://api.github.com/users/${githubUsername}/repos?sort=updated&per_page=6`);
@@ -309,3 +309,4 @@ function typeWriter(element, text, speed = 50) {
 //         typeWriter(heroTitle, originalText, 50);
 //     }
 // });
+
